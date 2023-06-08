@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    background: url(../img/vacas.jpg)no-repeat center top / cover;
+
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 90px;
+
+}
+
+#img1{
+    background: url(../img/registroPartos.jpg)no-repeat center /50% fixed;
+}
+
+
+
+/*
+*menu navegador
+*/
+
+.header {
+    background-color: #0769e9;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 15px;
+    left: 0;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 13px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 4px 8px;
+}
+
+.nav-menu-link:hover {
+    background-color: #034574;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-toggle {
+    color: white;
+    background-color: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+
+/*
+*footer
+*/
+footer{
+    width: 100%;
+    background-color: #83c5f7;
+}
+/*
+*Contenido principal
+*/
+
+
+#logo img {
+    width: 100%;
+    height: 60px;
+    margin-left: 5px;
+}
+
+.main {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.binvenida {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 220, 0.406);
+    padding: 25px;
+}
+
+.cajaEnlace {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    transition: all .5s ease-in-out;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 10px 0;
+    background: url(../img/vacas.jpg);
+    border: #034574 5px double;
+}
+
+
+.cajaEnlace:hover {
+    color: rgba(244, 16, 16, 0.858);
+    transform: scale(1.2);
+    height: 200px;
+    text-decoration: none;
+    border: 15px dashed white;
+    text-shadow: #83c5f7;
+    text-align: center;
+}
+
+.cajaEnlaceVacas {
+    background: url(../img/vacas.jpg) center top / cover fixed;
+
+}
+
+.cajaEnlaceTerneras {
+    background: url(../img/terneras.jpg) center /100% fixed;
+}
+
+.cajaEnlacePartos {
+    background: url(../img/registroParto.jpg) center bottom /100% fixed;
+}
+
+.cajaEnlaceRegistroVacas {
+    background: url(../img/registroVacas.jpg) center / 100% fixed;
+
+}
+
+.cajaEnlaceRegistroTerneras {
+    background: url(../img/regisroTernera.jpg) center top / cover;
+}
+
+.binvenida {
+    text-align: center;
+    color: rgb(2, 2, 56);
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+/*
+*formulario inicio secion
+*/
+
+.login {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #b2d5eea7;
+}
+
+.login form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.login legend, label{
+    font-family: fantasy;
+    color: #034574;
+    font-size: 25px;
+}
+
+.login h1 {
+    margin-bottom: 15px;
+}
+
+.login select,
+input,
+button
+ {
+    width: 100%;
+    margin: 10px 5px;
+    border-radius: 15px;
+    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+text-transform: lowercase;
+}
+
+.login form button {
+    background-color: red;
+    width: 50%;
+}
+
+/*
+*seccion de listas
+*/
+
+.table {
+    background-color: #c8d1db68;
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.table   img {
+    width: 50%;
+    height: 50%;
+
+} 
+
+
+.table table {
+    width: 100%;
+    color: rgb(10, 9, 82);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table tr{
+    border: 5px solid;
+    color: rgb(10, 9, 82);
+} 
+
+.table table tr td{
+    border: none;
+}
+
+
+.table table caption {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 25px;
+
+} 
+
+.login{
+    height: auto;
+}
+
+
+
+/*
+***seccion añadir foto ***
+*/
+
+.addFoto{
+width: 100%;
+height: 50px;
+background: url(../img/registroVacas.jpg);
+border: 10px double red;
+}
+
+.addImg{
+    width: 50%;
+    border: 2px double;
+    font-size: 20px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.mb{
+    margin-bottom: 20px;
+}
+
+
+/*
+*medidas responsive ****************************************************************************************************************************************************************************************************************************************************
+*/
+
+@media (max-width: 1080px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    html{
+        background: url(../img/vacas.jpg) center / cover;
+    }
+
+    body {
+        padding-top: 70px;
+    }
+
+    .header {
+        height: 60px;
+    }
+
+    .logo {
+        /* font-size: 25px; */
+        padding: 0 15;
+        line-height: 60px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #2c3e50;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .nav-menu-item {
+        line-height: 70px;
+    }
+
+    .nav-menu-link:hover {
+        background: none;
+        color: #83c5f7;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu_visible {
+        left: 0;
+    }
+
+    .btn button {
+        margin: 0 auto;
+    }
+
+    .main{
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .login{
+        width: 100%;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .cajaEnlace {
+        width: 90%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        color: rgb(240, 10, 10);
+        font-size: 50px;
+        margin: 10px 0;
+        border: #034574 15px double;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .cajaEnlaceVacas {
+        background: url(../img/vacas.jpg)  top  ;
+    
+    }
+    
+    .cajaEnlaceTerneras {
+        background: url(../img/terneras.jpg) center / cover  ;
+    }
+    
+    .cajaEnlacePartos {
+        background: url(../img/registroParto.jpg)no-repeat center /cover ;
+    }
+    
+    .cajaEnlaceRegistroVacas {
+        background: url(../img/registroVacas.jpg)no-repeat  top / cover ;
+    
+    }
+    
+    .cajaEnlaceRegistroTerneras {
+        background: url(../img/regisroTernera.jpg) center top / cover;
+    }
+
+    .table{
+        width: 100%;
+        text-align: center;
+    }
+
+    .table table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .table table th{
+        border: 5px solid ;   
+        color: rgb(10, 9, 82);
+        padding: 5px;
+    }  
+    
+    .table table tr{
+        border: 5px solid ;   
+        color: rgb(10, 9, 82);
+        padding: 5px;
+    } 
+
+    .table table tr td{
+        border: none;
+    }
+
+    .table table caption {
+        font-weight: bold;
+        font-family: cursive;
+        font-size: 25px;
+    
+    } 
+
+    .table table td img {
+        width: 100%;    
+    } 
+
+    .mb{
+        margin-bottom: 20px;
+    }
+
+}
