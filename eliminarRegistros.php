@@ -42,27 +42,6 @@ $resul   = mysqli_query($conexion, $sql) or trigger_error("query failed" . mysql
                     <button type="submit">Eliminar vaca</button>
                 </form>
             </div>
-
-
-            <div class="login">
-
-                <h1>Eliminar ternera</h1>
-                <form action="deleteTernera.php" method="post">
-                    <select name="nombreTernera" id="nombreTernera">
-                        <option value="0">Nombre ternera</option>
-                        <?php
-                        $sql = "SELECT * FROM `terneras`";
-                        $resul   = mysqli_query($conexion, $sql) or trigger_error("query failed" . mysqli_error($conexion), E_USER_ERROR);
-
-                        while ($rowTotal = mysqli_fetch_assoc($resul)) {
-                            echo "<option value = '$rowTotal[id]'> $rowTotal[nombre_ternera] </option>";
-                        }
-                        ?>
-                    </select>
-
-                    <button type="submit">Eliminar Ternera</button>
-                </form>
-            </div>
         </div>
     </div>
 </body>

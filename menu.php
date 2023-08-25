@@ -31,7 +31,7 @@
 
                 <li class="nav-menu-item"><a href="formVacas.php" class="nav-menu-link nav-link">Registar vaca</a></li>
 
-                <li class="nav-menu-item"><a href="listaTerneras.php" class="nav-menu-link nav-link">Terneras</a></li>
+                <li class="nav-menu-item"><a href="modificaciones.php" class="nav-menu-link nav-link">Modificaciones</a></li>
 
                 <li class="nav-menu-item"><a href="eliminarRegistros.php" class="nav-menu-link nav-link">Eliminar registros</a></li>
 

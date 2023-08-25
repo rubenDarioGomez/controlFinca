@@ -38,9 +38,9 @@ include('autentica.php');
                 </div>
             </a>
 
-            <a class="cajaEnlace cajaEnlaceTerneras" href="listaTerneras.php">
+            <a class="cajaEnlace cajaEnlaceTerneras" href="modificaciones.php">
                 <div>
-                    <p>Terneras</p>
+                    <p>Modificaciones</p>
                 </div>
             </a>
 

@@ -3,7 +3,7 @@
 $nombre = $_POST['nombre'];
 $clave = $_POST['clave'];
 
-$mysql = new mysqli("localhost", "root", "", "ganado");
+$mysql = new mysqli("localhost","root","","ganado");
 if($mysql->connect_error)
 die('Error en la conexion con la base de datos');
 
